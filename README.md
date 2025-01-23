@@ -1,46 +1,46 @@
-# A Template Repository for Data Science Projects
+# Unity Project Template
 
-[![Tests](https://github.com/habedi/template-python-project/actions/workflows/tests.yml/badge.svg)](https://github.com/habedi/template-python-project/actions/workflows/tests.yml)
-[![Python Version](https://img.shields.io/badge/Python-%3E=3.10-blue)](https://github.com/habedi/template-python-project)
-[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/habedi/template-python-project/blob/main/LICENSE)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="Assets/UI/Images/unity_logo.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="Assets/UI/Images/unity_logo.svg">
+    <img alt="Unity logo" src="Assets/UI/Images/unity_logo.svg" height="50%" width="50%">
+  </picture>
+</div>
+<br>
 
-This is a simple and minimalistic template repository for starting new data science and machine learning projects in
-Python.
+[![Unity](https://img.shields.io/badge/Unity-2021.2%2B-green)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/habedi/template-unity-project/blob/main/LICENSE)
 
-I created this template to help me speed up the setup process for my projects.
-And to have a consistent structure across all my personal and professional projects.
-I'm sharing it here in the hope that others find it useful.
-So, feel free to use it as a starting point for your projects.
+This repository contains a generic project template for Unity game engine.
+It is designed to speed up the process of setting up
+new Unity projects and to maintain a consistent structure across different projects.
+I'm sharing this template in the hope that it will be useful to others.
 
----
+See [Assets/README.md](Assets/README.md) for more details about the structure of the `Assets` directory.
 
-## Notable Features
+## Getting Started 🛠️
 
-- A predefined file and folder layout that should be suitable for most data science workflows.
-- Easy dependency and environment management with [Poetry](https://python-poetry.org/).
-- Extra configuration files for various tasks like linting, formatting, and testing.
+1. **Clone the repository (or download the ZIP file)**:
+    ```sh
+    git clone https://github.com/habedi/template-unity-project.git
+    ```
 
----
+2. **Open the project in Unity**:
+    - Open Unity Hub.
+    - Click on `Add` and select the cloned repository folder.
 
-## Folder Structure
+3. **Customize the template**:
+    - Modify the files and directories in the `Assets` folder to suit your project needs.
 
-The repository is organized as follows:
+> [!IMPORTANT]
+> You might need to configure a few settings in Unity before starting development. 
+> For example, you might want to change the default layout, enable or disable certain packages, configure the rendering pipeline, etc.
 
-```plaintext
-template-python-project/
-├── bin/         # Scripts and command-line tools
-├── data/        # Raw and processed datasets
-├── notebooks/   # Jupyter notebooks for exploration, analysis, and prototyping
-├── src/         # Source code for the project
-├── models/      # ML models and related files
-├── tests/       # Unit tests and test files
-├── pyproject.toml  # Project metadata and dependencies
-├── LICENSE      # License information
-└── README.md    # Project documentation
-```
+## Additional Resources 📚
 
----
+- [Unity Documentation](https://docs.unity3d.com/Manual/index.html)
+- [Unity Naming Conventions](https://gist.github.com/habedi/daa01be223c940cd3e59e197143275c1)
+- [CreateUnityProjectStructure.ps1](https://gist.github.com/habedi/c6bbe3cd3351c32c592a19314cf34e14)
+- [URP Setup](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/InstallURPIntoAProject.html)
 
-## License
-
-The files in this repository are licensed under the [MIT License](LICENSE).
