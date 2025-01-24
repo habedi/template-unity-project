@@ -9,7 +9,7 @@
 </div>
 <br>
 
-[![Unity](https://img.shields.io/badge/Unity-2021.2%2B-green)](https://unity.com)
+[![Unity](https://img.shields.io/badge/Unity-6-green)](https://unity.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/habedi/template-unity-project/blob/main/LICENSE)
 
 This repository contains a generic project template for Unity game engine.
@@ -34,8 +34,10 @@ See [Assets/README.md](Assets/README.md) for more details about the structure of
     - Modify the files and directories in the `Assets` folder to suit your project needs.
 
 > [!IMPORTANT]
-> You might need to configure a few settings in Unity before starting development. 
-> For example, you might want to change the default layout, enable or disable certain packages, configure the rendering pipeline, etc.
+> You might need to configure a few settings in Unity before starting development.
+> For example, you might want to change the default layout, enable or disable certain packages, configure the rendering
+> pipeline, etc.
+> By default, the project uses the Universal Render Pipeline (URP).
 
 ## Additional Resources 📚
 
