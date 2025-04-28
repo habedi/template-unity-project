@@ -7,6 +7,7 @@ An asset is a file that can be used in a Unity project, such as a 3D model, a sc
 
     - Art/                : Visual assets (animations, models, textures, etc.).
     - Audio/              : Sound assets (music and sound effects).
+    - Plugins/            : Unity plugins (DLLs, shared libraries, etc.).
     - Prefabs/            : Reusable game objects (player, enemy, collectible items, etc.).
     - Scenes/             : Game scenes and levels.
     - Scripts/            : Code assets (C# scripts).
