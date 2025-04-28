@@ -27,17 +27,21 @@ out/
 [Ll]ogs/
 [Mm]emoryCaptures/
 [Uu]serSettings/
+# User specific solutions settings
+*.suo
+*.userprefs
+*.user
+*.unityproj.user
 
-# Visual Studio generated files
+# Visual Studio / Rider generated files
 *.csproj
 *.unityproj
 *.sln
-*.suo
-*.user
-*.userprefs
 *.pidb
 *.booproj
 *.svd
+# Build output
+[Bb]in/
 
 # OS generated files
 .DS_Store
@@ -47,3 +51,4 @@ Thumbs.db
 # Add any additional file patterns a directory names that should be ignored down here
 
 #Packages/packages-lock.json
+*_output.txt
